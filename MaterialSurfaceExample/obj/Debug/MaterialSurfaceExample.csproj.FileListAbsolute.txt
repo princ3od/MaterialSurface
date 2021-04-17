@@ -12,3 +12,10 @@ D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\bin\Debug\MaterialSurface.
 D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.csproj.CopyComplete
 D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.exe
 D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.pdb
+D:\Github\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.csprojAssemblyReference.cache
+D:\Github\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.frmMain.resources
+D:\Github\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.Properties.Resources.resources
+D:\Github\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.csproj.GenerateResource.cache
+D:\Github\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.csproj.CoreCompileInputs.cache
+D:\Github\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.exe
+D:\Github\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.pdb
