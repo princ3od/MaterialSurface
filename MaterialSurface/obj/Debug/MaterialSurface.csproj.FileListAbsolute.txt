@@ -1,0 +1,6 @@
+D:\Projects\C#\MaterialSurface\MaterialSurface\bin\Debug\MaterialSurface.dll
+D:\Projects\C#\MaterialSurface\MaterialSurface\bin\Debug\MaterialSurface.pdb
+D:\Projects\C#\MaterialSurface\MaterialSurface\obj\Debug\MaterialSurface.csproj.CoreCompileInputs.cache
+D:\Projects\C#\MaterialSurface\MaterialSurface\obj\Debug\MaterialSurface.dll
+D:\Projects\C#\MaterialSurface\MaterialSurface\obj\Debug\MaterialSurface.pdb
+D:\Projects\C#\MaterialSurface\MaterialSurface\obj\Debug\MaterialSurface.csprojAssemblyReference.cache
