@@ -34,12 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MaterialSkin">
-      <HintPath>..\..\..\..\Github\TutteeFrame\TutteeFrame\bin\Release\MaterialSkin.dll</HintPath>
-    </Reference>
-    <Reference Include="MaterialSurface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="MaterialSkin, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\MaterialSurface\bin\Release\MaterialSurface.dll</HintPath>
+      <HintPath>.\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSurface">
+      <HintPath>output\MaterialSurface.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
