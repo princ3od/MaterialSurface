@@ -1,0 +1,14 @@
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.csprojAssemblyReference.cache
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.frmMain.resources
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.Properties.Resources.resources
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.csproj.GenerateResource.cache
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.csproj.CoreCompileInputs.cache
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\bin\Debug\MaterialSurfaceExample.exe.config
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\bin\Debug\MaterialSurfaceExample.exe
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\bin\Debug\MaterialSurfaceExample.pdb
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\bin\Debug\MaterialSkin.dll
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\bin\Debug\MaterialSurface.dll
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\bin\Debug\MaterialSurface.pdb
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.csproj.CopyComplete
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.exe
+D:\Projects\C#\MaterialSurface\MaterialSurfaceExample\obj\Debug\MaterialSurfaceExample.pdb
