@@ -1,4 +1,4 @@
-# MaterialSurface - UI Library for Winform C#
+# MaterialSurface - UI Components Library for Winform C#
 This library brings Google's Material Design components to Winform C#.
 ## Library Components
 - **Button** (Contained Button/Outlined Button/Text Button)
@@ -12,8 +12,9 @@ This library brings Google's Material Design components to Winform C#.
 - **TextField** (3 types)
 - **Snackbar** (support DarkTheme)
 ## Installation
+### [Video (Vietnamese)](https://youtu.be/AocfcB6sFGc)
 ### 1. Adding library to your project
-  You can add library through the Package Manager Console ([NuGet Package](https://www.nuget.org/packages/MaterialSkin/)).  
+  You can add library through the Package Manager Console ([MaterialSurface NuGet Package](https://www.nuget.org/packages/MaterialSurface/)).  
   Click **View** > **Others Windows** > **Package Manager Console** and run this command:
  ```
  PM > Install-Package MaterialSurface -Version 1.0.0
@@ -32,6 +33,19 @@ This library brings Google's Material Design components to Winform C#.
 - LinkedIn: https://www.linkedin.com/in/princ3od/
 - Email: princ3od@gmail.com
 ## Note
-Don't forget to check [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) which is a similar project but having missing components from this project such as Drawer, TabControl, Tooltip...
+Check out [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) which is a similar project but lacks components from this project like Drawer, TabControl, Tooltip...
 ## Preview Images
-//empty
+*Home tab*
+![Home Tab](https://i.imgur.com/hI5L8Ai.png)
+*Button tab*
+![Button Tab](https://i.imgur.com/sjx0cSk.png)
+*TextField tab*
+![TextField Tab](https://i.imgur.com/hjpuSRf.png)
+*Toggles tab*
+![Toggles Tab](https://i.imgur.com/5Q5PSih.png)
+*ProgressBar tab*
+![ProgressBar Tab](https://i.imgur.com/71BF8OR.png)
+*Snackbar*
+![Fullwidth Snackbar](https://i.imgur.com/yZIaYDx.png)
+*Dialog*
+![Dialog](https://i.imgur.com/yRoiO4v.png)
