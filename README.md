@@ -1,5 +1,6 @@
 # MaterialSurface - UI Components Library for Winform C#
-This library brings Google's Material Design components to Winform C#.
+This library brings Google's Material Design components to Winform C#.  
+[![INTRO VIDEO](https://img.youtube.com/vi/uaxmJ60yjFs/0.jpg)](https://www.youtube.com/watch?v=uaxmJ60yjFs)
 ## Library Components
 - **Button** (Contained Button/Outlined Button/Text Button)
 - **Card** (2 types)
@@ -33,7 +34,8 @@ This library brings Google's Material Design components to Winform C#.
 - LinkedIn: https://www.linkedin.com/in/princ3od/
 - Email: princ3od@gmail.com
 ## Note
-Check out [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) which is a similar project but lacks components from this project like Drawer, TabControl, Tooltip...
+- Check out [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) which is a similar project but conatins missing components from this project like Drawer, TabControl, Tooltip...
+- Give this project a star if you found it helpful.
 ## Preview Images
 *Home tab*
 ![Home Tab](https://i.imgur.com/hI5L8Ai.png)
