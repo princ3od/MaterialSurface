@@ -337,6 +337,11 @@ namespace MaterialSurface
         }
         private void OnAnimate(object sender, EventArgs e)
         {
+            if (this.IsDisposed)
+            {
+                animationDirector.Stop();
+                return;
+            }    
             if (mainTextbox.Focused)
             {
                 if (firstDot > leftPadding + fixOnMultilin + incSize || (firstDot > 0 && textFieldType == BoxType.Filled))
