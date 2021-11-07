@@ -29,10 +29,8 @@ This library brings Google's Material Design components to Winform C#.
   - Dialog is a replacement of MessageBox, so use it like MessageBox.  
   - Using Snackbar with method MakeSnackbar (static) or Make (for object).
   *I strongly recommend cloning project and taking a look at MaterialSurfaceExample which has Playground to explore all components.*
-## Contact
-- Facebook: https://www.facebook.com/princ3od/
-- LinkedIn: https://www.linkedin.com/in/princ3od/
-- Email: princ3od@gmail.com
+## Author
+- [Trong Duong Binh](https://github.com/princ3od)
 ## Note
 - Check out [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) which is a similar project but conatins missing components from this project like Drawer, TabControl, Tooltip...
 - Give this project a star if you found it helpful.
