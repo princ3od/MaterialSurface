@@ -1,36 +1,38 @@
 name: Release to NuGet
 on:
-  release:
-    types: [published]
+  push:
+    branches: [master]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-    
       - uses: actions/checkout@v2
-      
-      - name: Setup .NET Core
-        uses: actions/setup-dotnet@v1
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1
+
+      - name: Setup Nuget
+        uses: nuget/setup-nuget@v1
         with:
-          dotnet-version: 6.0.x
-          
+          nuget-api-key: ${{ secrets.NUGET_API_KEY }}
+
       - name: Build Package
-        run: dotnet build --configuration Release
+        run: msbuild MaterialSurface.csproj /p:Configuration=Release
         working-directory: ./MaterialSurface
 
-      - name: Create NuGet Package
-        run: dotnet pack -c Release /p:Version=${{ github.event.release.tag_name_without_v }} /p:PackageReleaseNotes="See https://github.com/princ3od/MaterialSurface/releases/tag/${{ github.event.release.tag_name }}"
+      - name: Package Nuget
+        run: nuget pack MaterialSurface.csproj -Prop Configuration=Release -Version 1.1.4
         working-directory: ./MaterialSurface
-      
-      - name: Archive NuGet Package
-        uses: actions/upload-artifact@v1
-        with:
-          name: MaterialSurface
-          path: ./MaterialSurface/bin/Release/Code.Library.${{ github.event.release.tag_name }}.nupkg
-          
-      - name: Publish to Github Package
-        run: dotnet nuget push */*.nupkg  --api-key ${{ github.token }} --source "https://nuget.pkg.github.com/threenine/index.json"
-        
-      - name: Publish Nuget Package
-        run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --no-symbols true
+
+      - name: Add Github source
+        run: nuget source Add -Name "github" -Source "https://nuget.pkg.github.com/princ3od/index.json" -UserName princ3od -Password ${{ secrets.GH_KEY }}
+        working-directory: ./MaterialSurface
+
+      - name: Push to GitHub registry
+        run: nuget push **/*.nupkg -Source "github" -ApiKey ${{ secrets.GH_KEY }} -SkipDuplicate
+        working-directory: ./MaterialSurface
+
+      - name: Push to Nuget registry
+        run: nuget push **/*.nupkg -Source "https://api.nuget.org/v3/index.json" -ApiKey ${{ secrets.NUGET_API_KEY }} -NoSymbols -SkipDuplicate
+        working-directory: ./MaterialSurface
