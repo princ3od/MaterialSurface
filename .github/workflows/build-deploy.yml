@@ -1,7 +1,8 @@
 name: Release to NuGet
 on:
   push:
-    branches: [master]
+    tags:
+      - "*"
 
 jobs:
   build:
@@ -21,16 +22,14 @@ jobs:
         run: msbuild MaterialSurface.csproj /p:Configuration=Release
         working-directory: ./MaterialSurface
 
+      - name: Get Tag
+        id: tag
+        uses: dawidd6/action-get-tag@v1
+        with:
+          strip_v: true
+
       - name: Package Nuget
-        run: nuget pack MaterialSurface.csproj -Prop Configuration=Release -Version 1.1.4
-        working-directory: ./MaterialSurface
-
-      - name: Add Github source
-        run: nuget source Add -Name "github" -Source "https://nuget.pkg.github.com/princ3od/index.json" -UserName princ3od -Password ${{ secrets.GH_KEY }}
-        working-directory: ./MaterialSurface
-
-      - name: Push to GitHub registry
-        run: nuget push **/*.nupkg -Source "github" -ApiKey ${{ secrets.GH_KEY }} -SkipDuplicate
+        run: nuget pack MaterialSurface.csproj -Prop Configuration=Release -Version ${{ steps.tag.outputs.tag }}
         working-directory: ./MaterialSurface
 
       - name: Push to Nuget registry
