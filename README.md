@@ -1,4 +1,4 @@
-# MaterialSurface - UI Components Library for Winform C#
+# MaterialSurface
 This library brings Google's Material Design components to Winform C#.  
 [![INTRO VIDEO](https://img.youtube.com/vi/uaxmJ60yjFs/0.jpg)](https://www.youtube.com/watch?v=uaxmJ60yjFs)
 ## Library Components
