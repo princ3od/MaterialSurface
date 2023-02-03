@@ -18,7 +18,7 @@ This library brings Google's Material Design components to Winform C#.
   You can add library through the Package Manager Console ([MaterialSurface NuGet Package](https://www.nuget.org/packages/MaterialSurface/)).  
   Click **View** > **Others Windows** > **Package Manager Console** and run this command:
  ```
- PM > Install-Package MaterialSurface -Version 1.1.0
+ PM > Install-Package MaterialSurface
  ```
  Or you can clone this project from Github, compile it yourself and add output as a reference.
  ### 2. Adding components to your Toolbox
@@ -32,7 +32,7 @@ This library brings Google's Material Design components to Winform C#.
 ## Author
 - [Trong Duong Binh](https://github.com/princ3od)
 ## Note
-- Check out [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) which is a similar project but conatins missing components from this project like Drawer, TabControl, Tooltip...
+- Check out [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) which is a similar project but contains missing components from this project like Drawer, TabControl, Tooltip...
 - Give this project a star if you found it helpful.
 ## Preview Images
 *Home tab*
